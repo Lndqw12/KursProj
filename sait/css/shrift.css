@@ -1,0 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Philosopher&subset=cyrillic);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@font-face {
+    font-family: glyphicons-halflings-regular; /* Гарнитура шрифта */
+    src: url(fonts/glyphicons-halflings-regular.eot); /* Для IE5-8 */
+    src: local(glyphicons-halflings-regular), url(fonts/glyphicons-halflings-regular.ttf); /* Для остальных браузеров */
+   }
+   h5 {
+    font-family: Courier New, 'Comic Sans MS';
+   }
+   h4 {
+    font-family: Impact, 'Comic Sans MS';
+   }
