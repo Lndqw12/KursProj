@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="ru" >
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>SAIT</title>
+		<link href="../css/bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="../css/style1.css" rel="stylesheet">
+		<link href="../css/shrift.css" rel="stylesheet">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="./js/jquery.touchSwipe.min.js"></script>
+	</head>
+	<body background = "../img/2.jpg">
+	<style>
+	html,body{
+	<!--background-color:gray;/* Цвет фона веб-страницы */-->
+	background-image:url(../img/2.jpg);
+	<!--opacity:0.86;-->
+	position:fixed;
+	width:150%;
+	height:150%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment:fixed;
+	}
+	</style>
+	
+	<nav>
+		<ul class = "menu">
+			<li><a href="../index.html" class="active">Главная<span class="fa fa-angle-down"></span></a>
+				<ul class="submenu">
+					<li><a href="../index.html">Домой</a>
+					</li>
+				</ul>
+			</li>
+			<li><a href="../">Опрос</a></li>
+			<li><a href="../html/pismo.html">Насписать нам</a></li>
+			<li><a href="../">Контакты</a></li>
+		</ul>
+	</nav>
+	
+	<div class = "telo">
+	<h3>Напишите ваше письмо разработчикам</h3>
+		<form name="comment" action="../php/koment.php" method="post">
+			<p>
+				<label>Ваше Имя:</label>
+				<input type="text" name="name" />
+			</p>
+			<p>
+				<label>Комментарий:</label>
+			<br />
+				<textarea name="text_comment" cols="40" rows="10"></textarea>
+			</p>
+			<p>
+				<input type="hidden" name="page_id" value="50" />
+				<input type="submit" value="Отправить" />
+			</p>
+		</form>
+	</div>
+</body>
+</html>

@@ -108,6 +108,7 @@ li:hover > .submenu {
 	border-style:solid;
 	background-color:white;
 	opacity:0.85;
+	text-align:center;
 }
 .q1 {
 	opacity:0.99;
