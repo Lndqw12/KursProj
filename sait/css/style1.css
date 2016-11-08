@@ -108,8 +108,22 @@ li:hover > .submenu {
 	border-style:solid;
 	background-color:white;
 	opacity:0.85;
-	text-align:center;
+	text-align:left;
 }
 .q1 {
+	position:relative;
 	opacity:0.99;
+	text-align:left;
+	margin-left: 0%;
+	margin-right: 65%;
+	border-radius:1%;
+}
+.q2 {
+	position:relative;
+	opacity:0.99;
+	text-align:right;
+	margin-left: 54%;
+	margin-right: 21%;
+	border-radius:1%;
+	bottom:-11px;
 }

@@ -12,13 +12,12 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
 	</head>
-	<body background = "../img/2.jpg">
+	<body background = "../img/3.jpg">
 	<style>
 	html,body{
 	<!--background-color:gray;/* Цвет фона веб-страницы */-->
-	background-image:url(../img/2.jpg);
+	background-image:url(../img/3.jpg);
 	<!--opacity:0.86;-->
-	position:fixed;
 	width:150%;
 	height:150%;
 	overflow-x: hidden;
@@ -44,22 +43,50 @@
 	</nav>
 	
 	<div class = "telo">
-	<h3>Напишите ваше письмо</h3>
-		<form name="comment" action="../php/koment.php" method="post">
-			<p>
-				<label>Ваше Имя:</label>
-				<input type="text" name="name" />
-			</p>
-			<p>
-				<label>Комментарий:</label>
-			<br />
-				<textarea name="text_comment" cols="30" rows="10"></textarea>
-			</p>
-			<p>
-				<input type="hidden" name="page_id" value="50" />
-				<input type="submit" value="Отправить" />
-			</p>
-		</form>
+	<div class = "q1">
+	<form action="../php/register.php" method="post" name="r_form" >
+	<text align = "right">
+		<table>
+			<tr>
+				<td> Имя: </td>
+				<td> <input type="text" name="r_name" required=" " />
+			</tr>
+			<tr>
+				<td> Логин: </td>
+				<td> <input type="text" name="r_username" required=" " /> </td>
+			</tr>
+			<tr>
+				<td> Пароль: </td>
+				<td> <input type="password" name="r_password" required=" " /> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input type="submit" name="r_send" value="Зарегистрироватся!" /> </td>
+			</tr>
+		</table>
+	</form>
+	<form action="../php/login.php" method="post" name="l_form" >
+		<table>
+			<tr>
+				<td> Логин: </td>
+				<td> <input type="text" name="l_username" required=" " /> </td>
+			</tr>
+			<tr>
+				<td> Пароль: </td>
+				<td> <input type="password" name="l_password" required=" " /> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input type="submit" name="l_send" value="Войти" /> </td>
+			</tr>
+		</table>
+		</text>
+	</form>
+	</div>
+	</div>
+	<div class = "q2">
+		<font color = "Blue">
+		<h5>Кантакты: "www.lazerser.su"</h5>
+		<h5>Email: "GazpromGTR.2000@mail.ru"</h5>
+		</font>
 	</div>
 </body>
 </html>
