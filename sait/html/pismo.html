@@ -11,6 +11,7 @@
 		<link href="../css/shrift.css" rel="stylesheet">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="../js/clocks.js"></script>
 	</head>
 	<body background = "../img/2.jpg">
 	<style>
@@ -28,21 +29,29 @@
     background-attachment:fixed;
 	}
 	</style>
-	
+	<font color = "#f7d6a3">
 	<nav>
 		<ul class = "menu">
+		<li>
+		<div id="clock">
+		<script language="javascript">
+		<!--
+		clock();
+		//-->
+		</script>
+		</div>
+		</li>
 			<li><a href="../index.html" class="active">Главная<span class="fa fa-angle-down"></span></a>
-				<ul class="submenu">
+				<!--ul class="submenu">
 					<li><a href="../index.html">Домой</a>
 					</li>
-				</ul>
+				</ul-->
 			</li>
 			<li><a href="../">Опрос</a></li>
 			<li><a href="../html/pismo.html">Насписать нам</a></li>
-			<li><a href="../html/kontakt.html">Контакты</a></li>
 		</ul>
 	</nav>
-	
+	</font>
 	<div class = "telo">
 	<h3>Напишите ваше письмо</h3>
 		<form name="comment" action="../php/koment.php" method="post">
@@ -60,6 +69,50 @@
 				<input type="submit" value="Отправить" />
 			</p>
 		</form>
+		<div class = "q1">
+	<form action="../php/register.php" method="post" name="r_form" >
+	<text align = "right">
+		<table>
+			<tr>
+				<td> Имя: </td>
+				<td> <input type="text" name="r_name" required=" " />
+			</tr>
+			<tr>
+				<td> Логин: </td>
+				<td> <input type="text" name="r_username" required=" " /> </td>
+			</tr>
+			<tr>
+				<td> Пароль: </td>
+				<td> <input type="password" name="r_password" required=" " /> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input type="submit" name="r_send" value="Зарегистрироватся!" /> </td>
+			</tr>
+		</table>
+	</form>
+	<form action="../php/login.php" method="post" name="l_form" >
+		<table>
+			<tr>
+				<td> Логин: </td>
+				<td> <input type="text" name="l_username" required=" " /> </td>
+			</tr>
+			<tr>
+				<td> Пароль: </td>
+				<td> <input type="password" name="l_password" required=" " /> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input type="submit" name="l_send" value="Войти" /> </td>
+			</tr>
+		</table>
+		</text>
+	</form>
+	</div>
+	<div class = "q2">
+		<font color = "red">
+		<h5><a href = "../index.html">Кантакты: "www.lazerser.su"</a></h5>
+		<h5><a href = "../index.html">Email: "GazpromGTR.2000@mail.ru"</a></h5>
+		</font>
+	</div>
 	</div>
 </body>
 </html>

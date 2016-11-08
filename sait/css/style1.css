@@ -111,19 +111,55 @@ li:hover > .submenu {
 	text-align:left;
 }
 .q1 {
-	position:relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position:absolute;
 	opacity:0.99;
 	text-align:left;
-	margin-left: 0%;
-	margin-right: 65%;
+	margin-left: 65%;
+	margin-right: 0%;
 	border-radius:1%;
+	margin-top: -62%;
+	text-align:left;
 }
 .q2 {
 	position:relative;
 	opacity:0.99;
-	text-align:right;
-	margin-left: 54%;
-	margin-right: 21%;
+	text-align:left;
+	margin-left: 25%;
+	margin-right: 30%;
 	border-radius:1%;
 	bottom:-11px;
+	text-align:center;
+	margin-top: 15%;
+}
+.q2:active {
+	position:relative;
+	opacity:1.0;
+	color:black;
+	text-align:right;
+	margin-left: 25%;
+	margin-right: 30%;
+	border-radius:1%;
+	bottom:-11px;
+	text-align:center;
+	margin-top: 15%;
+}
+.telo1 {
+	position:fixed;
+	width:100%;
+	background-image:url(../img/1.jpg);
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment:fixed;
+	height:100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 20%;
+	border-radius:2%;
+	border-style:solid;
+	background-color:white;
+	opacity:0.85;
+	text-align:left;
+	border-style:solid;
 }
