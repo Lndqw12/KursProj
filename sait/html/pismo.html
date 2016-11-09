@@ -52,6 +52,13 @@
 		</ul>
 	</nav>
 	</font>
+	<style>
+   textarea {
+    width: 30%; /* Ширина поля в процентах */
+    height: 220px; /* Высота поля в пикселах */
+    resize: none; /* Запрещаем изменять размер */
+   } 
+  </style>
 	<div class = "telo">
 	<h3>Напишите ваше письмо</h3>
 		<form name="comment" action="../php/koment.php" method="post">
@@ -62,7 +69,7 @@
 			<p>
 				<label>Комментарий:</label>
 			<br />
-				<textarea name="text_comment" cols="30" rows="10"></textarea>
+				<textarea name="text_comment" resize="none" cols="30" rows="10"></textarea>
 			</p>
 			<p>
 				<input type="hidden" name="page_id" value="50" />
@@ -112,6 +119,8 @@
 		<h5><a href = "../index.html">Кантакты: "www.lazerser.su"</a></h5>
 		<h5><a href = "../index.html">Email: "GazpromGTR.2000@mail.ru"</a></h5>
 		</font>
+		<br>
+		<p><a href = "../index.html">1</a> &nbsp <a href = "../html/opros.html">2</a> &nbsp <a href = "../html/pismo.html">3</a></p>
 	</div>
 	</div>
 </body>
