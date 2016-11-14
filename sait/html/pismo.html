@@ -16,15 +16,15 @@
 	<body background = "../img/2.jpg">
 	<style>
 	html,body{
-	<!--background-color:gray;/* Цвет фона веб-страницы */-->
+	background-color:gray;/* Цвет фона веб-страницы */
 	background-image:url(../img/2.jpg);
 	<!--opacity:0.86;-->
 	position:fixed;
-	width:150%;
-	height:150%;
+	width:100%;
+	height:100%;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	background-repeat: repeat-y, repeat-y;
+	background-repeat: no-repeat;
     background-position: left, right;
     background-attachment:fixed;
 	}
@@ -48,19 +48,13 @@
 				</ul-->
 			</li>
 			<li><a href="../html/opros.html">Опрос</a></li>
-			<li><a href="../html/pismo.html">Насписать нам</a></li>
+			<li><a href="../html/pismo.html">Прочее</a></li>
 		</ul>
 	</nav>
 	</font>
-	<style>
-   textarea {
-    width: 30%; /* Ширина поля в процентах */
-    height: 220px; /* Высота поля в пикселах */
-    resize: none; /* Запрещаем изменять размер */
-   } 
-  </style>
 	<div class = "telo">
-	<h3>Напишите ваше письмо</h3>
+	
+	<!--h3>Напишите ваше письмо</h3>
 		<form name="comment" action="../php/koment.php" method="post">
 			<p>
 				<label>Ваше Имя:</label>
@@ -69,14 +63,14 @@
 			<p>
 				<label>Комментарий:</label>
 			<br />
-				<textarea name="text_comment" resize="none" cols="30" rows="10"></textarea>
+				<textarea name="text_comment" cols="30" rows="10"></textarea>
 			</p>
 			<p>
 				<input type="hidden" name="page_id" value="50" />
 				<input type="submit" value="Отправить" />
 			</p>
 		</form>
-		<div class = "q1">
+		<--div class = "q1">
 	<form action="../php/register.php" method="post" name="r_form" >
 	<text align = "right">
 		<table>
@@ -113,14 +107,13 @@
 		</table>
 		</text>
 	</form>
-	</div>
+	</div-->
+	<iframe name="hero"  src="./img.html" width="100%" height="60%" scrolling="auto">	</iframe>
 	<div class = "q2">
 		<font color = "red">
 		<h5><a href = "../index.html">Кантакты: "www.lazerser.su"</a></h5>
 		<h5><a href = "../index.html">Email: "GazpromGTR.2000@mail.ru"</a></h5>
 		</font>
-		<br>
-		<p><a href = "../index.html">1</a> &nbsp <a href = "../html/opros.html">2</a> &nbsp <a href = "../html/pismo.html">3</a></p>
 	</div>
 	</div>
 </body>

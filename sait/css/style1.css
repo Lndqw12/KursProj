@@ -100,7 +100,7 @@ li:hover > .submenu {
 .telo {
 	position:fixed;
 	width:60%;
-	height:150%;
+	height:90%;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	margin-left: 20%;
@@ -116,10 +116,10 @@ li:hover > .submenu {
 	position:absolute;
 	opacity:0.99;
 	text-align:left;
-	margin-left: 75%;
+	margin-left: 65%;
 	margin-right: 0%;
 	border-radius:1%;
-	margin-top: -40%;
+	margin-top: -62%;
 	text-align:left;
 }
 .q2 {
@@ -131,7 +131,7 @@ li:hover > .submenu {
 	border-radius:1%;
 	bottom:-11px;
 	text-align:center;
-	margin-top: 7%;
+	margin-top: 15%;
 }
 .q2:active {
 	position:relative;
@@ -143,7 +143,7 @@ li:hover > .submenu {
 	border-radius:1%;
 	bottom:-11px;
 	text-align:center;
-	margin-top: 7%;
+	margin-top: 15%;
 }
 .telo1 {
 	position:fixed;
@@ -180,9 +180,9 @@ li:hover > .submenu {
 	margin-top: 15%;
 }
 .telo3 {
-	position:absolute;
+	position:fixed;
 	width:60%;
-	height:150%;
+	height:90%;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	margin-left: 20%;
@@ -193,18 +193,35 @@ li:hover > .submenu {
 	text-align:center;
 	word-break:break-all;
 }
-/*<style>
-	html,body{
-	background-color:gray;/* Цвет фона веб-страницы 
-	background-image:url(./img/0.jpg);
-	<!--opacity:0.86;-->
-	position:fixed;
-	width:100%;
-	height:100%;
+.t1 {
+	position:absolute;
+	top:0%;
+	text-align:center;
+	word-break:break-all;
+}
+.t2 {
+	position:absolute;
+	top:35%;
+	text-align:center;
+	word-break:break-all;
+}
+.t3 {
+	position:absolute;
+	top:70%;
+	text-align:center;
+	word-break:break-all;
+}
+.tel {
+	position:relative;
+	width:60%;
+	height:10%;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	background-repeat: no-repeat;
-    background-position: left, right;
-    background-attachment:fixed;
-	}
-	</style>*/
+	margin-left: 20%;
+	margin-top: 60%;
+	border-radius:2%;
+	border-style:solid;
+	background-color:white;
+	opacity:0.85;
+	text-align:center;
+}

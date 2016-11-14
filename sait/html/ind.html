@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru" >
 	<head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -13,55 +13,44 @@
 	<script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
 	<script type="text/javascript" src="../js/clocks.js"></script>
 	</head>
-	<body background = "../img/22.jpg">
+	<body backgroundi = "../img/2.jpg">
 	<style>
 	html,body{
 	<!--background-color:gray;/* Цвет фона веб-страницы */-->
-	background-image:url(../img/22.jpg);
+	background-image:url(../img/2.jpg);
 	<!--opacity:0.86;-->
 	position:fixed;
-	width:150%;
-	height:150%;
+	width:100%;
+	height:100%;
+	background-color:gray;
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background-repeat: repeat-y, repeat-y;
     background-position: left, right;
     background-attachment:fixed;
 	}
+	.diva {
+	width:80%;
+	height:70%;
+	margin-left: 10%;
+	margin-right: 30%;
+	border-radius:1%;
+	text-align:center;
+	margin-top: 10%;
+	background-color:white;
+	overflow-x: fixed;
+	overflow-y: fixed;
+	background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment:fixed;
+	border-style:solid;
+	opacity:0.86;
+	}
 	</style>
-	<font color = "#f7d6a3">
-	<nav>
-		<ul class = "menu">
-		<li>
-		<div id="clock">
-		<script language="javascript">
-		<!--
-		clock();
-		//-->
-		</script>
-		</div>
-		</li>
-			<li><a href="../index.html" class="active">Главная<span class="fa fa-angle-down"></span></a>
-				<!--ul class="submenu">
-					<li><a href="../index.html">Домой</a>
-					</li>
-				</ul-->
-			</li>
-			<li><a href="../html/opros.html">Опрос</a></li>
-			<li><a href="../html/pismo.html">Прочее</a></li>
-		</ul>
-	</nav>
-	</font>
-	<div class = "telo3">
-<iframe name="hero"  src="../golos/golos3.php?id=2" width="500" height="390" frameborder="0" style="border: 0px solid black" scrolling="auto">
+	<div class = "diva">
+	<iframe name="hero"  src="./index.html" width="100%" height="100%" frameborder="0" style="border: 0px solid black" scrolling="auto">
     Ваш браузер не поддерживает плавающие фреймы!
-</iframe>	
-	<div class = "q2">
-		<font color = "red">
-		<h5><a href = "../index.html">Кантакты: "www.lazerser.su"</a></h5>
-		<h5><a href = "../index.html">Email: "GazpromGTR.2000@mail.ru"</a></h5>
-		</font>
-	</div>
+	</iframe>
 	</div>
 </body>
 </html>
