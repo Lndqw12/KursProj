@@ -110,6 +110,20 @@ li:hover > .submenu {
 	opacity:0.85;
 	text-align:center;
 }
+.telo:hover {
+	position:fixed;
+	width:60%;
+	height:90%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 20%;
+	border-radius:2%;
+	border-style:solid;
+	background-color:white;
+	opacity:0.85;
+	text-align:center;
+	box-shadow: 0 0 15px rgba(0,0,0,0.9); /* Параметры тени */
+}
 .q1 {
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -193,23 +207,41 @@ li:hover > .submenu {
 	text-align:center;
 	word-break:break-all;
 }
+.telo3:hover {
+	position:fixed;
+	width:60%;
+	height:90%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 20%;
+	border-radius:2%;
+	border-style:solid;
+	background-color:white;
+	opacity:0.85;
+	text-align:center;
+	word-break:break-all;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
 .t1 {
 	position:absolute;
 	top:0%;
 	text-align:center;
 	word-break:break-all;
+	color:black;
 }
 .t2 {
 	position:absolute;
 	top:35%;
 	text-align:center;
 	word-break:break-all;
+	color:black;
 }
 .t3 {
 	position:absolute;
 	top:70%;
 	text-align:center;
 	word-break:break-all;
+	color:black;
 }
 .tel {
 	position:relative;
@@ -224,4 +256,64 @@ li:hover > .submenu {
 	background-color:white;
 	opacity:0.85;
 	text-align:center;
+}
+.tel2 {
+	position:relative;
+	width:19%;
+	height:88%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 81%;
+	margin-top: -66%;
+	border-radius:2%;
+	border-style:solid;
+	background-color:gray;
+	opacity:0.5;
+	text-align:center;
+}
+.tel3 {
+	position:relative;
+	width:19%;
+	height:88%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 0%;
+	margin-top: -57%;
+	border-radius:2%;
+	border-style:solid;
+	background-color:gray;
+	opacity:0.5;
+	text-align:center;
+}
+.tel2:hover {
+	position:relative;
+	width:19%;
+	height:88%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 81%;
+	margin-top: -66%;
+	border-radius:2%;
+	border-style:solid;
+	opacity:0.5;
+	color:black;
+	background-color:gray;
+	text-align:center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.tel3:hover {
+	position:relative;
+	width:19%;
+	height:88%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: 0%;
+	margin-top: -57%;
+	border-radius:2%;
+	border-style:solid;
+	opacity:0.5;
+	color:black;
+	background-color:gray;
+	text-align:center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
 }
