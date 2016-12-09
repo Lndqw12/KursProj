@@ -19,7 +19,7 @@
 
 <!--p><a href='../golos/vote.php?id=3' target="hero"><button>Результаты</button></a></p-->
 
-<iframe name="hero"  src="../golos/vote.php?id=3" width="500" height="150" frameborder="0" style="border: 0px solid black" scrolling="auto">
+<iframe name="hero"  src="../golos/vote.php?id=3" width="550" height="200" frameborder="0" style="border: 0px solid black" scrolling="auto">
     Ваш браузер не поддерживает плавающие фреймы!
 </iframe>
 

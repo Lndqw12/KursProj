@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form action="vote.php" method="get" target='_blank'>
+<form action="./vote.php" method="get" target='_blank'>
 <!-- указываем в value цифру нужного нам голосования, для которого уже создали файлы //-->
 <input type="Hidden" name="id" value="1">
 <p><b>Оцените сайт:</b></p>
@@ -19,7 +19,7 @@
 </form>
 
 <!-- указываем в href после vote.php?id= цифру нужного нам голосования, для которого уже создали файлы //-->
-<p><a href='vote.php?id=1' target='_blank'><button>Результаты</button></a></p>
+<p><a href='./vote.php?id=1' target='_blank'><button>Результаты</button></a></p>
 
 </body>
 </html>
