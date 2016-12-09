@@ -16,10 +16,10 @@ if ($vote) {
 
 
 
-//foreach($ip_abbr as $value)
-//if ($ip == $value) {echo "<p><b><font color=red> Вы уже голосовали! </font></b></p>";
-//exit;
-//}
+foreach($ip_abbr as $value)
+if ($ip == $value) {echo "<p><b><font color=red> Вы уже голосовали! </font></b></p>";
+exit;
+}
 
 
 
